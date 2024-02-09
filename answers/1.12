@@ -1,0 +1,8 @@
+ docker run -d -p 8081:80 --name sainan-frontend --link sainan-container-lab3:sainan-container-lab3 -e "WS_BACK_URL=http://sainan-container-lab3:8080" frontend
+
+
+
+Results:
+(base) bisainan@bisainandebijibendiannao front % docker run -d -p 8081:80 --name sainan-frontend --link sainan-container-lab3:sainan-container-lab3 -e "WS_BACK_URL=http://sainan-container-lab3:8080" frontend
+
+3956c77a26d0df098dc5d9857ecbb5a5b0fa609c46924801e7b75e9e76940448

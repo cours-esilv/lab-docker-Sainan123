@@ -1,0 +1,10 @@
+# Stop the specific containers
+docker stop sainan-frontend sainan-container-lab3
+
+# Remove the specific containers
+docker rm sainan-frontend sainan-container-lab3
+
+# Remove the specific images
+docker rmi bisainan/frontend
+
+
