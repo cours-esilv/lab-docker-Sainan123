@@ -1,0 +1,14 @@
+docker stop my-container
+docker rename my-container sainan-container-lab3
+docker start sainan-container-lab3
+
+
+Results:
+(base) bisainan@bisainandebijibendiannao lab-docker-Sainan123 % docker stop my-container
+
+my-container
+(base) bisainan@bisainandebijibendiannao lab-docker-Sainan123 % docker rename my-container sainan-container-lab3
+
+(base) bisainan@bisainandebijibendiannao lab-docker-Sainan123 % docker start sainan-container-lab3
+sainan-container-lab3
+(base) bisainan@bisainandebijibendiannao lab-docker-Sainan123 % 
