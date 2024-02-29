@@ -3,6 +3,16 @@ services:
   backend:  
     image: my-backend-image  
     ports:
-      - "5000:5000"  
+      - "5001:5000"  
     environment:
-      - NAME=World 
+      - CURRENT_ENVIRONMENT=production
+     # volumes:
+    #   - my_data:/path/to/data
+# volumes:
+#   my_data:
+  frontend:
+    image: my-frontend-image  
+    ports:
+      - "80:80"  
+    environment:
+      - WS_BACK_URL=http://backend:5000  
