@@ -1,0 +1,14 @@
+(base) bisainan@bisainandebijibendiannao back % docker-compose up
+
+[+] Running 1/0
+ ✔ Container app-backend-1  Recreated                                      0.0s 
+Attaching to backend-1
+backend-1  |  * Environment: production
+backend-1  |    WARNING: This is a development server. Do not use it in a production deployment.
+backend-1  |    Use a production WSGI server instead.
+backend-1  |  * Debug mode: off
+backend-1  | WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+backend-1  |  * Running on all addresses (0.0.0.0)
+backend-1  |  * Running on http://127.0.0.1:5000
+backend-1  |  * Running on http://172.22.0.2:5000
+backend-1  | Press CTRL+C to quit

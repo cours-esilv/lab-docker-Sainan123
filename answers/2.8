@@ -1,0 +1,9 @@
+(base) bisainan@bisainandebijibendiannao app % docker-compose up -d --scale backend=3
+
+[+] Running 2/4
+ ✔ Container app-frontend-1  Running                                       0.0s 
+ ✔ Container app-backend-1   Running                                       0.0s 
+ ⠋ Container app-backend-3   Created                                       0.1s 
+ ⠋ Container app-backend-2   Starting                                      0.1s 
+Error response from daemon: driver failed programming external connectivity on endpoint app-backend-2 (e069165eefc3d039193f451218f59a13496a344e7370f98de7f575cedbbda1d4): Bind for 0.0.0.0:5001 failed: port is already allocated
+(base) bisainan@bisainandebijibendiannao app % 
